@@ -1,24 +1,31 @@
-# README
+## OmniAuth playground
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
 
-Things you may want to cover:
+Project to test different Providers Strategies of OmniAuth
+Devise gem. Test Simple actions: LogIn, LogOut, SignUp, 
+require different data from resource.
 
-* Ruby version
+### Requirements
+    
+* gems
+    * **rails** >= 6
+  
+### Configuration
 
-* System dependencies
+TODO
 
-* Configuration
+### Installation
 
-* Database creation
+1. clone repo
+2. `cd` into directory
+3. run `bundle`
+4. migrate database with run `rails db:migrate`
 
-* Database initialization
+### Running
 
-* How to run the test suite
+`rails s` to start server
 
-* Services (job queues, cache servers, search engines, etc.)
+### List of Strategies
 
-* Deployment instructions
-
-* ...
+TODO
