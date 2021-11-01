@@ -1,0 +1,8 @@
+<h1>User Data</h1>
+<%= link_to "Logout", destroy_user_session, method: :delete %>
+<h3>E-mail:<%= @user.email %></h3>
+<h3>UID:<%= @user.uid %></h3>
+<h3>ID:<%= @user.id %></h3>
+<h3>Provider:<%= @user.provider %></h3>
+<h3>Created:<%= @user.created_at %></h3>
+<h3>Updated:<%= @user.updated_at %></h3>
