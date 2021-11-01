@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to: "devise/sessions#new"
-  devise_for :users
+  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   get "users/auth/:provider/callback", to: "users/omniauth_callbacks#entry"
 
   devise_scope :user do
